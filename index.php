@@ -1,15 +1,15 @@
 <?php
-//header('Content-type: text/html; charset=utf-8');
-header('Content-type: text/html; charset=windows-1251');
+header('Content-type: text/html; charset=utf-8');
+//header('Content-type: text/html; charset=windows-1251');
 ?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>РњР•Р‘Р›Р†</title>
+<title>Р СљР вЂўР вЂР вЂєР вЂ </title>
 </head>
 <body>
-<a href="clear.php"> Очистити і створити БД</a><br>
-<a href="form.php"> Замовити ноутбук</a><br>
-<a href="list.php"> Список зроблених замовлень </a>
+<a href="clear.php"> РћС‡РёСЃС‚РёС‚Рё С– СЃС‚РІРѕСЂРёС‚Рё Р‘Р”</a><br>
+<a href="form.php"> Р—Р°РјРѕРІРёС‚Рё РЅРѕСѓС‚Р±СѓРє</a><br>
+<a href="list.php"> РЎРїРёСЃРѕРє Р·СЂРѕР±Р»РµРЅРёС… Р·Р°РјРѕРІР»РµРЅСЊ </a>
 </body>
 </html>
