@@ -5,7 +5,7 @@ header('Content-type: text/html; charset=utf-8');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>РњР•Р‘Р›Р†</title>
+<title>Калькулятор замовлення ноутбуків</title>
 </head>
 <body>
 <a href="clear.php"> Очистити і створити БД</a><br>
