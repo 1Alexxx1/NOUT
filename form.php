@@ -1,6 +1,6 @@
 <?php
-//header('Content-type: text/html; charset=utf-8');
-header('Content-type: text/html; charset=windows-1251');
+header('Content-type: text/html; charset=utf-8');
+//header('Content-type: text/html; charset=windows-1251');
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,20 +23,20 @@ var nubmer=parseFloat(document.forma.data10.value);
 }
 </script>
 
-<title> Сделай свой ноутбук сам!!! </title>
+<title> РЎРґРµР»Р°Р№ СЃРІРѕР№ РЅРѕСѓС‚Р±СѓРє СЃР°Рј!!! </title>
 </head>
 <body>
 <form name="forma" method="post" action="add.php">
-<p>Заказ ноутбука</p>
+<p>Р—Р°РєР°Р· РЅРѕСѓС‚Р±СѓРєР°</p>
 <p>
-Введите свою фамилию:<br>
+Р’РІРµРґРёС‚Рµ СЃРІРѕСЋ С„Р°РјРёР»РёСЋ:<br>
 <input type="text" name="familiya" >
 </p>
 <p>
-Введите свое имя:<br>
+Р’РІРµРґРёС‚Рµ СЃРІРѕРµ РёРјСЏ:<br>
 <input type="text" name="imya">
 </p>
-<p>Размер экрана</p>
+<p>Р Р°Р·РјРµСЂ СЌРєСЂР°РЅР°</p>
 <p>
 <input  type="radio" name="ScreenSize" value="100" checked>
 9-10<br>
@@ -53,94 +53,94 @@ var nubmer=parseFloat(document.forma.data10.value);
 <input   type="radio" name="ScreenSize"  value="700">
 18-20<br>
 </p>
-<p>Объем оперативной памяти</p>
+<p>РћР±СЉРµРј РѕРїРµСЂР°С‚РёРІРЅРѕР№ РїР°РјСЏС‚Рё</p>
 <p>
 <input  type="radio" name="MemSize" value="100" checked>
-1гб<br>
+1РіР±<br>
 <input   type="radio" name="MemSize"  value="200">
-2гб<br>
+2РіР±<br>
 <input   type="radio" name="MemSize"  value="300">
-3гб<br>
+3РіР±<br>
 <input   type="radio" name="MemSize"  value="400">
-4гб<br>
+4РіР±<br>
 <input   type="radio" name="MemSize"  value="500">
-6гб<br>
+6РіР±<br>
 <input   type="radio" name="MemSize"  value="890">
-8гб<br>
+8РіР±<br>
 <input   type="radio" name="MemSize"  value="910">
-12гб<br>
+12РіР±<br>
 <input   type="radio" name="MemSize"  value="8000">
-16гб<br>
+16РіР±<br>
 <input   type="radio" name="MemSize"  value="9000">
-24гб<br>
+24РіР±<br>
 </p>
-<p>Объём HDD</p>
+<p>РћР±СЉС‘Рј HDD</p>
 <p>
 <input  type="radio" name="HDDSize" value="100" checked>
-до 160гб<br>
+РґРѕ 160РіР±<br>
 <input   type="radio" name="HDDSize"  value="200">
-160гб-200гб <br>
+160РіР±-200РіР± <br>
 <input   type="radio" name="HDDSize"  value="300">
-250гб-300гб <br>
+250РіР±-300РіР± <br>
 <input   type="radio" name="HDDSize"  value="400">
-300гб-400гб <br>
+300РіР±-400РіР± <br>
 <input   type="radio" name="HDDSize"  value="500">
-1тб<br>
+1С‚Р±<br>
 </p>
-<p>Сенсорный экран</p>
+<p>РЎРµРЅСЃРѕСЂРЅС‹Р№ СЌРєСЂР°РЅ</p>
 <p>
 <input  type="radio" name="SensScreen" value="1000" checked>
-да<br>
+РґР°<br>
 <input   type="radio" name="SensScreen"  value="400">
-нет<br>
+РЅРµС‚<br>
 </p>
-<p>Видеокарта(Объем памяти)</p>
+<p>Р’РёРґРµРѕРєР°СЂС‚Р°(РћР±СЉРµРј РїР°РјСЏС‚Рё)</p>
 <p>
 <input  type="radio" name="videoPrice" value="100" checked>
-512мб<br>
+512РјР±<br>
 <input   type="radio" name="videoPrice"  value="200">
-1гб<br>
+1РіР±<br>
 <input   type="radio" name="videoPrice"  value="300">
-2гб<br>
+2РіР±<br>
 <input   type="radio" name="videoPrice"  value="400">
-3гб<br>
+3РіР±<br>
 <input   type="radio" name="videoPrice"  value="500">
-4гб<br>
+4РіР±<br>
 <input   type="radio" name="videoPrice"  value="600">
-6гб<br>
+6РіР±<br>
 </p>
-<p>Процессор(Внутренняя тактовая частота)</p>
+<p>РџСЂРѕС†РµСЃСЃРѕСЂ(Р’РЅСѓС‚СЂРµРЅРЅСЏСЏ С‚Р°РєС‚РѕРІР°СЏ С‡Р°СЃС‚РѕС‚Р°)</p>
 <p>
 <input  type="radio" name="CPUPrice" value="100" checked>
-Менее 2 ГГц <br>
+РњРµРЅРµРµ 2 Р“Р“С† <br>
 <input   type="radio" name="CPUPrice"  value="200">
-2.1 - 2.5 ГГц<br>
+2.1 - 2.5 Р“Р“С†<br>
 <input   type="radio" name="CPUPrice"  value="300">
-2.6 - 3 ГГц<br>
+2.6 - 3 Р“Р“С†<br>
 <input   type="radio" name="CPUPrice"  value="400">
-Более 3 ГГц<br>
+Р‘РѕР»РµРµ 3 Р“Р“С†<br>
 </p>
 
-<p>Выберите способ доставки:</p>
+<p>Р’С‹Р±РµСЂРёС‚Рµ СЃРїРѕСЃРѕР± РґРѕСЃС‚Р°РІРєРё:</p>
 <p>
 <select name="dostavka" size="1">
-<option selected value="10"> К подезду</option>
-<option value="20">В квартиру </option>
-<option value="0"> Самовывоз</option>
+<option selected value="10"> Рљ РїРѕРґРµР·РґСѓ</option>
+<option value="20">Р’ РєРІР°СЂС‚РёСЂСѓ </option>
+<option value="0"> РЎР°РјРѕРІС‹РІРѕР·</option>
 </select>
 </p> 
 <p>
-Введите количество таких ноутбуков:<br>
+Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚Р°РєРёС… РЅРѕСѓС‚Р±СѓРєРѕРІ:<br>
 <input type="text" name="kolichestvo" value="1">
 </p>
-<p> Введите адрес для доставки:<br>
+<p> Р’РІРµРґРёС‚Рµ Р°РґСЂРµСЃ РґР»СЏ РґРѕСЃС‚Р°РІРєРё:<br>
 <textarea name="address" cols="40" rows="5"></textarea>
 </p>
-<input type=button value="Приблизительная стоимость" onClick="calculate();"><br>
+<input type=button value="РџСЂРёР±Р»РёР·РёС‚РµР»СЊРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ" onClick="calculate();"><br>
 <textarea name=result></textarea>
 <p>
-<input type="submit" value="Показать Ваш заказ" width="20">
- <input type="reset" value="Отмена ">
+<input type="submit" value="РџРѕРєР°Р·Р°С‚СЊ Р’Р°С€ Р·Р°РєР°Р·" width="20">
+ <input type="reset" value="РћС‚РјРµРЅР° ">
 </p>
 </form>
 </body>
