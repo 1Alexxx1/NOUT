@@ -1,14 +1,14 @@
 <?php
-//header('Content-type: text/html; charset=utf-8');
-header('Content-type: text/html; charset=windows-1251');
+header('Content-type: text/html; charset=utf-8');
+//header('Content-type: text/html; charset=windows-1251');
 ?>
 
 <html>
 <head>
-<title>Ноутбук</title>
+<title>РќРѕСѓС‚Р±СѓРє</title>
 </head>
 <body>
-Вы можете посмотреть базу данных нажав <a href="added.php">сюда</a>.
+Р’С‹ РјРѕР¶РµС‚Рµ РїРѕСЃРјРѕС‚СЂРµС‚СЊ Р±Р°Р·Сѓ РґР°РЅРЅС‹С… РЅР°Р¶Р°РІ <a href="added.php">СЃСЋРґР°</a>.
 </body>
 </html>
 <?php
@@ -18,27 +18,27 @@ define("UserName","root");
 define("Password","");
 
 $familiya=$_REQUEST['familiya'];
-echo "<br>Фамилия=$familiya <br>";
+echo "<br>Р¤Р°РјРёР»РёСЏ=$familiya <br>";
 $imya=$_REQUEST['imya'];
-echo "Имя=$imya <br>";
+echo "РРјСЏ=$imya <br>";
 $ScreenSize=$_REQUEST['ScreenSize'];
-echo "Стоимость??? монитора=$ScreenSize <br>";
+echo "РЎС‚РѕРёРјРѕСЃС‚СЊ??? РјРѕРЅРёС‚РѕСЂР°=$ScreenSize <br>";
 $MemSize=$_REQUEST['MemSize'];
-echo "Стоимость??? оперативки=$MemSize <br>";
+echo "РЎС‚РѕРёРјРѕСЃС‚СЊ??? РѕРїРµСЂР°С‚РёРІРєРё=$MemSize <br>";
 $HDDSize=$_REQUEST['HDDSize'];
-echo "Стоимость?? HDD=$HDDSize <br>";
+echo "РЎС‚РѕРёРјРѕСЃС‚СЊ?? HDD=$HDDSize <br>";
 $SensScreen=$_REQUEST['SensScreen'];
-echo "Стоимость?? сенсорного экрана=$SensScreen <br>";
+echo "РЎС‚РѕРёРјРѕСЃС‚СЊ?? СЃРµРЅСЃРѕСЂРЅРѕРіРѕ СЌРєСЂР°РЅР°=$SensScreen <br>";
 $videoPrice=$_REQUEST['videoPrice'];
-echo "стоимость видеокарты=$videoPrice <br>";
+echo "СЃС‚РѕРёРјРѕСЃС‚СЊ РІРёРґРµРѕРєР°СЂС‚С‹=$videoPrice <br>";
 $CPUPrice=$_REQUEST['CPUPrice'];
-echo "Стоимость?? процессора=$CPUPrice <br>";
+echo "РЎС‚РѕРёРјРѕСЃС‚СЊ?? РїСЂРѕС†РµСЃСЃРѕСЂР°=$CPUPrice <br>";
 $dostavka=$_REQUEST['dostavka'];
-echo "Способ доставки=$dostavka <br>";
+echo "РЎРїРѕСЃРѕР± РґРѕСЃС‚Р°РІРєРё=$dostavka <br>";
 $kolichestvo=$_REQUEST['kolichestvo'];
-echo "Кол-во ноутбуков=$kolichestvo <br>";
+echo "РљРѕР»-РІРѕ РЅРѕСѓС‚Р±СѓРєРѕРІ=$kolichestvo <br>";
 $address=$_REQUEST['address'];
-echo "Адресс доставки=$address <br>";
+echo "РђРґСЂРµСЃСЃ РґРѕСЃС‚Р°РІРєРё=$address <br>";
 
 
 $file=fopen('zakaz.txt','a+');
@@ -71,7 +71,7 @@ if (!mysql_query($sql))
   {
   die('Error: ' . mysql_error());
   }
-echo "Запись успешно добавлена в базу данных.";
+echo "Р—Р°РїРёСЃСЊ СѓСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅР° РІ Р±Р°Р·Сѓ РґР°РЅРЅС‹С….";
 
 //mysql_close($con);
 
