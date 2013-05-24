@@ -40,7 +40,7 @@ if(!$r)
 echo mysql_error();
 }
 
- $r=mysql_query("INSERT INTO `testbd` (`familiya`, `imya`, `ScreenSize`, `MemSize`, `HDDSize`, `SensScreen`, videoPrice, `CPUPrice`, `dostavka`, `kolichestvo`, `address`) VALUES ('', '', '100', '100', '100', '1000', '100', '100', '? ???????', '1', ''),('', '', '100', '100', '100', '1000', '100', '100', '? ???????', '1', '');");
+ $r=mysql_query("INSERT INTO `testbd` (`familiya`, `imya`, `ScreenSize`, `MemSize`, `HDDSize`, `SensScreen`, videoPrice, `CPUPrice`, `dostavka`, `kolichestvo`, `address`) VALUES ('', '', '100', '100', '100', '1000', '100', '100', '? ???????', '1', ''),('', '', '100', '100', '100', '1000', '100', '100', '0', '1', '');");
 if(!$r)
 { echo "Error !<br>";
 echo mysql_error();
