@@ -1,13 +1,13 @@
 <?php
-//header('Content-type: text/html; charset=utf-8');
-header('Content-type: text/html; charset=windows-1251');
+header('Content-type: text/html; charset=utf-8');
+//header('Content-type: text/html; charset=windows-1251');
 ?>
 
 <html>
 <head>
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Ноутбук</title>
+<title>РќРѕСѓС‚Р±СѓРє</title>
 
 </head>
 <body>
@@ -31,17 +31,17 @@ $result = mysql_query("SELECT * FROM testbd");
 
 echo "<table border=2>
 
-<th>Фамилия</th>
-<th>Имя</th>
-<th>Размер экрана</th>
-<th>Объем оперативной памяти</th>
-<th>Объём HDD</th>
-<th>Сенсорный экран</th>
-<th>Видеокарта(Объем памяти)</th>
-<th>Процессор(Частота)</th>
-<th>Способ доставки</th>
-<th>Количество</th>
-<th>Адресс доставки</th>
+<th>Р¤Р°РјРёР»РёСЏ</th>
+<th>РРјСЏ</th>
+<th>Р Р°Р·РјРµСЂ СЌРєСЂР°РЅР°</th>
+<th>РћР±СЉРµРј РѕРїРµСЂР°С‚РёРІРЅРѕР№ РїР°РјСЏС‚Рё</th>
+<th>РћР±СЉС‘Рј HDD</th>
+<th>РЎРµРЅСЃРѕСЂРЅС‹Р№ СЌРєСЂР°РЅ</th>
+<th>Р’РёРґРµРѕРєР°СЂС‚Р°(РћР±СЉРµРј РїР°РјСЏС‚Рё)</th>
+<th>РџСЂРѕС†РµСЃСЃРѕСЂ(Р§Р°СЃС‚РѕС‚Р°)</th>
+<th>РЎРїРѕСЃРѕР± РґРѕСЃС‚Р°РІРєРё</th>
+<th>РљРѕР»РёС‡РµСЃС‚РІРѕ</th>
+<th>РђРґСЂРµСЃСЃ РґРѕСЃС‚Р°РІРєРё</th>
 "; 
 
 while($row = mysql_fetch_array($result))
